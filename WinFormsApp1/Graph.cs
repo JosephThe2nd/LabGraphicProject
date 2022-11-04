@@ -47,11 +47,31 @@ namespace WinFormsApp1
                 vertices[i].mapLocation = new PointF(x, y);
             }
         }
+        public void NrI(Graphic handler)
+        {
+            int nr = 0;
+            for(int i = 0; i< edges.Count - 1; i++)
+                for(int j = i + 1; j< edges.Count; j++)
+                {
+                    PointF S = myMath.Inters(vertices[edges[i].idxVertexStart].mapLocation, vertices[edges[i].idxVertexEnd].mapLocation, vertices[edges[j].idxVertexStart].mapLocation, vertices[edges[j].idxVertexEnd].mapLocation);            
+                        try
+                        {
+                            handler.grp.DrawEllipse(Pens.Red, S.X - 5, S.Y - 5, 11, 11); }
+                        catch
+                        { };
+                }
+        }
         public void Draw(Graphic handler)
         {
             foreach(Vertex vertex in vertices)
             {
                 vertex.Draw(handler);
+
+                
+            }
+            foreach(Edge edge in edges)
+            {
+                edge.Draw(handler, vertices);
             }
         }
     }
