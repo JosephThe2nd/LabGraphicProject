@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\covas\\source\\repos\\VSC22\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\covas\\source\\repos\\LabGraphicProject\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\covas\\source\\repos\\VSC22\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "C:\\Users\\covas\\source\\repos\\LabGraphicProject\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\covas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\covas\\source\\repos\\VSC22\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\Users\\covas\\source\\repos\\LabGraphicProject\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\covas\\AppData\\Roaming\\NuGet\\NuGet.Config",
